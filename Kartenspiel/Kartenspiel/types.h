@@ -16,9 +16,14 @@ struct SPlayer {
 	SCardStack hand;
 };
 
-struct SGame {
+struct SPlayers {
 	SPlayer* players;
 	int numOfPlayers;
+};
+
+struct SGame {
+	SPlayers players;
+	int currentPlayer;
 	SCardStack deck;
 	SCardStack stack;
 };

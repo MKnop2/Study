@@ -27,6 +27,9 @@
     <ClCompile Include="io.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="logic.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="types.h">
@@ -41,6 +44,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="io.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
