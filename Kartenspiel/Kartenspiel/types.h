@@ -6,8 +6,8 @@ struct SCard {
 };
 
 struct SCardStack {
-	SCard* m_Card;
-	int m_NumOfCards;
+	SCard* m_pCards;
+	int m_AmmountOfCards;
 };
 
 struct SPlayer {
@@ -16,7 +16,7 @@ struct SPlayer {
 	SCardStack m_Hand;
 };
 
-struct SPlayers {
+struct SPlayers { //?????????
 	SPlayer* m_Players;
 	int m_NumOfPlayers;
 };
