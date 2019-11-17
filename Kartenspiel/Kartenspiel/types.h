@@ -18,7 +18,7 @@ struct SPlayer {
 
 struct SPlayers { //?????????
 	SPlayer* m_Players;
-	int m_NumOfPlayers;
+	int m_AmmountOfPlayers;
 };
 
 struct SGame {
