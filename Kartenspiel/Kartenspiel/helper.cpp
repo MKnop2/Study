@@ -2,6 +2,6 @@
 
 #include <stdlib.h>
 
-int getRandomInt(int upperLimit) {
-	return rand() % upperLimit;
+int getRandomInt(int _UpperLimit) {
+	return rand() % _UpperLimit;
 }

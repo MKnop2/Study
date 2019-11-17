@@ -6,24 +6,24 @@ struct SCard {
 };
 
 struct SCardStack {
-	SCard* card;
-	int numOfCards;
+	SCard* m_Card;
+	int m_NumOfCards;
 };
 
 struct SPlayer {
 	int m_PlayerID;
 	char* m_PlayerName;
-	SCardStack hand;
+	SCardStack m_Hand;
 };
 
 struct SPlayers {
-	SPlayer* players;
-	int numOfPlayers;
+	SPlayer* m_Players;
+	int m_NumOfPlayers;
 };
 
 struct SGame {
-	SPlayers players;
-	int currentPlayer;
-	SCardStack deck;
-	SCardStack stack;
+	SPlayers m_Players;
+	int m_CurrentPlayer;
+	SCardStack m_Deck;
+	SCardStack m_Stack;
 };

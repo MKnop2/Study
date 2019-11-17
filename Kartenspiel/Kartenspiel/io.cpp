@@ -3,23 +3,14 @@
 #include <iostream>
 #include <string>
 
-int askForInt(const char* msg)
+int askForInt(const char* _Msg)
 {
-	int result;
-	std::cout << msg << "\n";
-	std::cin >> result;
-	return result;
+	int Result;
+	std::cout << _Msg << "\n";
+	std::cin >> Result;
+	return Result;
 }
 
-const int MAX_INPUT_STRING_SIZE = 20;
-
-void askForString(const char* msg, const char* result)
-{
-	std::string line;
-	std::cout << msg << "\n";
-	std::cin >> line;
-	result = line.data();
-}
 
 void deckPrint(SCard *_Card_Deck, int _DeckSize) {
 	for (int i = 0; i < _DeckSize; i++)

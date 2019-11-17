@@ -1,3 +1,3 @@
 #pragma once
 
-int getRandomInt(int upperLimit);
+int getRandomInt(int _UpperLimit);

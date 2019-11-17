@@ -1,7 +1,11 @@
-﻿  main.cpp
-C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(6,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
-C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(10,72): warning C4838: Konvertierung von "int" zu "char" erfordert eine einschränkende Konvertierung
-C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(10,97): warning C4305: "Initialisierung": Verkürzung von "int" in "char"
-C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(10,72): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
-C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(15,8): warning C4101: "Discard_Deck": Unreferenzierte lokale Variable
+﻿  io.cpp
+  logic.cpp
+  main.cpp
+C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(7,13): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
+C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(35,72): warning C4838: Konvertierung von "int" zu "char" erfordert eine einschränkende Konvertierung
+C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(35,97): warning C4305: "Initialisierung": Verkürzung von "int" in "char"
+C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(35,72): warning C4309: "Initialisierung": Verkürzung eines konstanten Wertes
+  start_up.cpp
+  Code wird generiert...
+C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\main.cpp(37,8): warning C4101: "Discard_Deck": Unreferenzierte lokale Variable
   Kartenspiel.vcxproj -> C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Debug\Kartenspiel.exe
