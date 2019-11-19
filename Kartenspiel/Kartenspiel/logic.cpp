@@ -27,6 +27,5 @@ void drawCard(SCard* _Source_Deck, SCard* _Target_Deck, int _Source_Deck_Size, i
 		_Source_Deck[i] = _Source_Deck[i + 1];
 	}
 	_Target_Deck[_Target_Deck_Size] = Temp;
-	_Target_Deck_Size++;
 }
 

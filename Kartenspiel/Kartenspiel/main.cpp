@@ -65,10 +65,16 @@ int main() {
 
 		for (int x = 0; x < Start_Hand; x++) {
 			drawCard(Stack_Card_Deck.m_pCards, Player[i].m_Hand.m_pCards, Stack_Card_Deck.m_AmmountOfCards, Player[i].m_Hand.m_AmmountOfCards);
+			Stack_Card_Deck.m_AmmountOfCards--;
+			Player[i].m_Hand.m_AmmountOfCards++;
 		}
-		int temp = 7;
-		deckPrint(Player[i].m_Hand.m_pCards, temp);
+		
+		deckPrint(Player[i].m_Hand.m_pCards, 7);
 	}
+	deckPrint(Stack_Card_Deck.m_pCards, Deck_Size);
+
+
+	//! GAMELOOP STARTS HERE!!!!!
 	// -----> GameState  <-- all the information about the Game
 	SGame GameState;
 	GameState.m_Players = Players;
