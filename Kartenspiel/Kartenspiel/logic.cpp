@@ -1,6 +1,7 @@
 #include "logic.h"
 #include "helper.h"
-#include "io.h"
+#include <ctime>
+#include <cstdlib>
 
 bool canCardBePlayed(SCard& _StackCard, SCard& _PlayerCard) {
 	return _StackCard.m_Card_Color == _PlayerCard.m_Card_Color
@@ -9,6 +10,7 @@ bool canCardBePlayed(SCard& _StackCard, SCard& _PlayerCard) {
 
 void shuffelDeck(SCard* _Card_Deck, int _Card_Size_Current_Deck) {
 	//iterate through deck swap two cards
+	srand((int)time(0)); // thats for the random function
 	for (int i = 0; i < _Card_Size_Current_Deck; i++) {
 		SCard Temp_Card = _Card_Deck[i/*Temp_Pos*/];
 		int Swap_Pos = getRandomInt(_Card_Size_Current_Deck);
