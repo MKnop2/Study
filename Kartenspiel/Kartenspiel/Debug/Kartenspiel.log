@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  helper.cpp
+  logic.cpp
+  Code wird generiert...
+C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Kartenspiel\helper.cpp(6,12): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
   Kartenspiel.vcxproj -> C:\Users\matth\Desktop\Entwicklung\Study\Struct Uebung Kartenspiel\Kartenspiel\Debug\Kartenspiel.exe

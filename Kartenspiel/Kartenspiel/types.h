@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 struct SCard {
 	char m_Card_Value;
@@ -12,7 +13,7 @@ struct SCardStack {
 
 struct SPlayer {
 	int m_PlayerID;
-	char* m_PlayerName;
+	std::string m_PlayerName;
 	SCardStack m_Hand;
 };
 

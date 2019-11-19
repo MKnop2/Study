@@ -3,13 +3,20 @@
 #include <iostream>
 #include <string>
 
-int askForInt(const char* _Msg)
-{
+int askForInt(std::string _Msg){
 	int Result;
 	std::cout << _Msg << "\n";
 	std::cin >> Result;
 	return Result;
 }
+
+std::string askForString(std::string _Msg) {
+	std::string Result;
+	std::cout << _Msg << "\n";
+	std::cin >> Result;
+		return Result;
+}
+
 
 
 void deckPrint(SCard *_Card_Deck, int _DeckSize) {

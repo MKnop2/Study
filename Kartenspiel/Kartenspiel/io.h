@@ -1,10 +1,11 @@
 #pragma once
 
+#include <string>
 #include "types.h"
 
-int askForInt(const char* _Msg);
+int askForInt(std::string _Msg);
 
-void askForString(const char* _Msg, const char* _Result);
+std::string askForString(std::string _Msg);
 
 void deckPrint(SCard* _Card_Deck, int _DeckSize);
 
