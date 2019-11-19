@@ -43,7 +43,7 @@ int main() {
 	// create deck, put first card on stack
 	buildDeck(Stack_Card_Deck.m_pCards, Amount_Colors, Amount_Values, Color, Value);
 	deckPrint(Stack_Card_Deck.m_pCards, Deck_Size);
-	shuffelDeck(Stack_Card_Deck.m_pCards, Deck_Size);
+	shuffelDeck(Stack_Card_Deck.m_pCards, Stack_Card_Deck.m_AmmountOfCards);
 	deckPrint(Stack_Card_Deck.m_pCards, Deck_Size);
 	drawCard(Stack_Card_Deck.m_pCards, Stack_Discard_Deck.m_pCards, Stack_Card_Deck.m_AmmountOfCards, Stack_Discard_Deck.m_AmmountOfCards);
 	deckPrint(Stack_Card_Deck.m_pCards, Deck_Size);
@@ -87,3 +87,4 @@ int main() {
 
 	return 0;
 }
+

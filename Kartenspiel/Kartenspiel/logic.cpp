@@ -1,16 +1,17 @@
 #include "logic.h"
 #include "helper.h"
+#include "io.h"
 
 bool canCardBePlayed(SCard& _StackCard, SCard& _PlayerCard) {
 	return _StackCard.m_Card_Color == _PlayerCard.m_Card_Color
 		|| _StackCard.m_Card_Value == _PlayerCard.m_Card_Value;
 }
 
-void shuffelDeck(SCard* _Card_Deck, int _DeckSize) {
+void shuffelDeck(SCard* _Card_Deck, int _Card_Size_Current_Deck) {
 	//iterate through deck swap two cards
-	for (int i = 0; i < _DeckSize; i++) {
+	for (int i = 0; i < _Card_Size_Current_Deck; i++) {
 		SCard Temp_Card = _Card_Deck[i/*Temp_Pos*/];
-		int Swap_Pos = getRandomInt(_DeckSize);
+		int Swap_Pos = getRandomInt(_Card_Size_Current_Deck);
 		SCard Swap_Card = _Card_Deck[Swap_Pos];
 		_Card_Deck[i/*Temp_Pos*/] = Swap_Card;
 		_Card_Deck[Swap_Pos] = Temp_Card;

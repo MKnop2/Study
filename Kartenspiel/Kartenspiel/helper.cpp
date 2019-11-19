@@ -1,8 +1,8 @@
 #include "helper.h"
-#include <time.h>
-#include <stdlib.h>
+#include <cstdlib>
+#include <ctime>
 
 int getRandomInt(int _UpperLimit) {
-	srand(time(0));
+	// srand((int)time(0));
 	return rand() % _UpperLimit;
 }
